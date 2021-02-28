@@ -22,7 +22,7 @@ export function ExperienceBar() {
           className={styles.currentExperience}
           style={{ left: `${percentToNexLevel}%` }}
         >
-          {currentExperience}xp
+          {currentExperience} xp
         </span>
       </div>
       <span>{experienceToNextLevel} xp</span>
